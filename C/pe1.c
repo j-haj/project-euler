@@ -28,10 +28,10 @@ int *findMultiplesBelowN(int a, int b, int n) {
     int minFactor = fmin(a, b);
     
     // Alocate memory for factor array
-    int *multiples = malloc(n * sizeof(int));
+    int *multiples = malloc(minFactor * sizeof(int));
     
     // Set array elements to 0
-    memset(multiples, 0, n * sizeof(int));
+    memset(multiples, 0, minFactor * sizeof(int));
     
     int index = 0; // Array index
 
