@@ -12,12 +12,13 @@ int main(int argc, char *argv[]){
     int n = atoi(argv[3]);
     int *result = findMultiplesBelowN(a, b, n);
     
-    // Loop through array to print results
-    int idx = 0;
+    int idx = 0; // Array index
+    int sum = 0; // Sum of array elements
     while(result[idx] != 0) {
-        printf("result[%d]: %d\n", idx, result[idx]);
+        sum += result[idx];
         idx++;
     }
+    printf("%d\n", sum);
     free(result);
     return 0;
 }
@@ -28,14 +29,23 @@ int *findMultiplesBelowN(int a, int b, int n) {
     
     // Alocate memory for factor array
     int *multiples = malloc(n * sizeof(int));
+    
+    // Set array elements to 0
     memset(multiples, 0, n * sizeof(int));
-    int index = 0;
+    
+    int index = 0; // Array index
 
     // Count up to n, storing factors as apprporiate
     for (int i = 1; i < n; i++) {
         if ((i % a) == 0 && (i % b) == 0) {
             multiples[index] = i;
             index ++;
+        } else if ((i % a) == 0 && (i % b) != 0) {
+            multiples[index] = i;
+            index++;
+        } else if ((i % a) != 0 && (i % b) == 0) {
+            multiples[index] = i;
+            index++;
         }
     }
 
