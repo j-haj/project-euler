@@ -31,4 +31,4 @@ function sumMultiplesLessThanN(n) {
   return total
 }
 
-debug(sumMultiplesLessThanN(1000))
+console.log(sumMultiplesLessThanN(1000))
