@@ -1,2 +1,5 @@
 # Don't include the executables
 *.out
+
+# Don't include Scala class files
+*.class

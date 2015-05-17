@@ -9,17 +9,15 @@ object PE1 {
   }
 
   /**
-  Determines whether the passed argument is a multiple of three or five (or both)
-  */
-  def multipleOf3Or5(n: Int): Boolean = {
-    if ((n % 3 == 0) || (n % 5 == 0)) { true }
-    else { false }
-  }
-
-  /**
   Sums multiples of the three, five, or both that are less than the passed arguemnt
   */
   def sumLessThanN(n: Int): Int = {
+    
+    def multipleOf3Or5(n: Int): Boolean = {
+      if ((n % 3 == 0) || (n % 5 == 0)) { true }
+      else { false }
+    }
+
     if (n == 0) {
       0
     } else {
