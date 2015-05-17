@@ -5,6 +5,38 @@ import sys
 """
     !headerdoc!
 
+    @brief Finds all primes less than a specified bound (n)
+
+    @description This algorithm works by removing all multiples of composite
+    numbers less than the specified boudn until only primes remain.
+
+    @param n The bound on the value of prime numbers to be found.
+
+"""
+def eratosthenes_sieve(n):
+
+
+"""
+    !headerdoc!
+
+    @brief Quadratic sieve implementation. It is a general-purpose factorization algorithm
+
+    @description This integer factorization algorithm is the second-fastest known
+    method after the general number field sieve. It is the fastest for numbers
+    under 100 digits long. The algorithm attempts to set up a congruence of squares
+    modulo n, which often leads to a factorization of n.
+    See www.wikipedia.org/wiki/Quadratic_sieve for more details.
+
+    @param n The number whose integer factorization is desired.
+
+    @param B The smoothness bound used to determine the factor base.
+"""
+def quadratic_sieve():
+
+
+"""
+    !headerdoc!
+
     @brief Returns a tuple containing a prime factorization a*b of a given integer
 
     @description This method uses Dixon's factorization method to find
@@ -223,6 +255,7 @@ def gcd(a, b):
     else:
         return gcd(b, a % b)
 
+# Tests
 if __name__ == "__main__":
     n = int(sys.argv[1])
     print(is_prime(n, 5))
