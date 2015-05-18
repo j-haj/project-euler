@@ -12,10 +12,10 @@ This is a small collection of my solutions, in various languages, to [Project Eu
 
 ##Progress
 
-Language | Progress *(solved/total)*
--------- | -----------------------
-Swift | [1/516]
-Scala | [2/516]
-Python | [2/516]
-C/C++ | [2/516]
-JavaScript | [2/516]
+Language | Progress
+-------- | --------
+Swift | 1/516
+Scala | 2/516
+Python | 2/516
+C/C++ | 2/516
+JavaScript | 2/516
