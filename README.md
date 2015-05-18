@@ -14,7 +14,7 @@ This is a small collection of my solutions, in various languages, to [Project Eu
 
 Language | Progress
 -------- | --------
-Swift | 1/516
+Swift | 2/516
 Scala | 2/516
 Python | 2/516
 C/C++ | 2/516
