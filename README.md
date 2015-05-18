@@ -1,6 +1,6 @@
 #Project Euler Solutions
 
-This is a small collection of my solutions, in various languages, to [Project Euler](www.projecteuler.net) problems.
+This is a small collection of my solutions, in various languages, to [Project Euler](https://projecteuler.net) problems.
 
 ##Languages
 
