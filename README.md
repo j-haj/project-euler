@@ -22,9 +22,9 @@ JavaScript | 3/516
 
 ##Solutions
 ###Solution Index
-[PE1](https://github.com/j-haj/project-euler#PE1)
+[PE1](https://github.com/j-haj/project-euler#pe1)
 
-[PE2](https://github.com/j-haj/project-euler#PE2)
+[PE2](https://github.com/j-haj/project-euler#pe2)
 
 PE3
 
