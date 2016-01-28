@@ -4,7 +4,7 @@ import sys
 def find_multiples_below_n(a, b, n):
     '''Returns multiples of a or b that are less than n'''
     multiples = []
-    for i in range(n):
+    for i in range(n):gtest
         if (i%a)==0 and (i%b)==0:
             multiples.append(i)
         elif (i%a)==0 and (i%b)!=0:

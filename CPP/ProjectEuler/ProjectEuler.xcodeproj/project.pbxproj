@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D7B77231C5A4AB4004F29C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B77221C5A4AB4004F29C3 /* main.cpp */; };
+		6D7B772B1C5A4B7E004F29C3 /* Solutions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B77291C5A4B7E004F29C3 /* Solutions.cpp */; };
+		6D7B77361C5A4DCD004F29C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D7B77351C5A4DCD004F29C3 /* main.cpp */; };
+		6D7B77831C5A596B004F29C3 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7B77821C5A596B004F29C3 /* gtest.framework */; };
+		6D7B77841C5A5973004F29C3 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7B77821C5A596B004F29C3 /* gtest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6D7B771D1C5A4AB4004F29C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6D7B77311C5A4DCD004F29C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6D7B771F1C5A4AB4004F29C3 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7B77221C5A4AB4004F29C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6D7B77291C5A4B7E004F29C3 /* Solutions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Solutions.cpp; sourceTree = "<group>"; };
+		6D7B772A1C5A4B7E004F29C3 /* Solutions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Solutions.hpp; sourceTree = "<group>"; };
+		6D7B77331C5A4DCD004F29C3 /* ProjectEulerTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEulerTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7B77351C5A4DCD004F29C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6D7B77821C5A596B004F29C3 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gtest.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D7B771C1C5A4AB4004F29C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7B77831C5A596B004F29C3 /* gtest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7B77301C5A4DCD004F29C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7B77841C5A5973004F29C3 /* gtest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D7B77161C5A4AB4004F29C3 = {
+			isa = PBXGroup;
+			children = (
+				6D7B77341C5A4DCD004F29C3 /* ProjectEulerTests */,
+				6D7B772C1C5A4DA1004F29C3 /* Frameworks */,
+				6D7B77211C5A4AB4004F29C3 /* ProjectEuler */,
+				6D7B77201C5A4AB4004F29C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D7B77201C5A4AB4004F29C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D7B771F1C5A4AB4004F29C3 /* ProjectEuler */,
+				6D7B77331C5A4DCD004F29C3 /* ProjectEulerTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7B77211C5A4AB4004F29C3 /* ProjectEuler */ = {
+			isa = PBXGroup;
+			children = (
+				6D7B77221C5A4AB4004F29C3 /* main.cpp */,
+				6D7B77291C5A4B7E004F29C3 /* Solutions.cpp */,
+				6D7B772A1C5A4B7E004F29C3 /* Solutions.hpp */,
+			);
+			path = ProjectEuler;
+			sourceTree = "<group>";
+		};
+		6D7B772C1C5A4DA1004F29C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D7B77821C5A596B004F29C3 /* gtest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D7B77341C5A4DCD004F29C3 /* ProjectEulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D7B77351C5A4DCD004F29C3 /* main.cpp */,
+			);
+			path = ProjectEulerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D7B771E1C5A4AB4004F29C3 /* ProjectEuler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7B77261C5A4AB4004F29C3 /* Build configuration list for PBXNativeTarget "ProjectEuler" */;
+			buildPhases = (
+				6D7B771B1C5A4AB4004F29C3 /* Sources */,
+				6D7B771C1C5A4AB4004F29C3 /* Frameworks */,
+				6D7B771D1C5A4AB4004F29C3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectEuler;
+			productName = ProjectEuler;
+			productReference = 6D7B771F1C5A4AB4004F29C3 /* ProjectEuler */;
+			productType = "com.apple.product-type.tool";
+		};
+		6D7B77321C5A4DCD004F29C3 /* ProjectEulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7B77371C5A4DCD004F29C3 /* Build configuration list for PBXNativeTarget "ProjectEulerTests" */;
+			buildPhases = (
+				6D7B772F1C5A4DCD004F29C3 /* Sources */,
+				6D7B77301C5A4DCD004F29C3 /* Frameworks */,
+				6D7B77311C5A4DCD004F29C3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectEulerTests;
+			productName = ProjectEulerTests;
+			productReference = 6D7B77331C5A4DCD004F29C3 /* ProjectEulerTests */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D7B77171C5A4AB4004F29C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "j-haj";
+				TargetAttributes = {
+					6D7B771E1C5A4AB4004F29C3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6D7B77321C5A4DCD004F29C3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6D7B771A1C5A4AB4004F29C3 /* Build configuration list for PBXProject "ProjectEuler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D7B77161C5A4AB4004F29C3;
+			productRefGroup = 6D7B77201C5A4AB4004F29C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D7B771E1C5A4AB4004F29C3 /* ProjectEuler */,
+				6D7B77321C5A4DCD004F29C3 /* ProjectEulerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D7B771B1C5A4AB4004F29C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7B772B1C5A4B7E004F29C3 /* Solutions.cpp in Sources */,
+				6D7B77231C5A4AB4004F29C3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7B772F1C5A4DCD004F29C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7B77361C5A4DCD004F29C3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6D7B77241C5A4AB4004F29C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/gtest.framework\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/gtest.framework/Headers\"",
+					"\"$(SRCROOT)/../../../../Downloads/googletest-read-only/include/gtest/internal\"",
+					"\"$(SRCROOT)/../../../../Downloads/googletest-read-only/include/gtest/internal/custom\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ProjectEulerTests/include/gtest/internal\"";
+			};
+			name = Debug;
+		};
+		6D7B77251C5A4AB4004F29C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/gtest.framework\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/gtest.framework/Headers\"",
+					"\"$(SRCROOT)/../../../../Downloads/googletest-read-only/include/gtest/internal\"",
+					"\"$(SRCROOT)/../../../../Downloads/googletest-read-only/include/gtest/internal/custom\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ProjectEulerTests/include/gtest/internal\"";
+			};
+			name = Release;
+		};
+		6D7B77271C5A4AB4004F29C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D7B77281C5A4AB4004F29C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D7B77381C5A4DCD004F29C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D7B77391C5A4DCD004F29C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D7B771A1C5A4AB4004F29C3 /* Build configuration list for PBXProject "ProjectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7B77241C5A4AB4004F29C3 /* Debug */,
+				6D7B77251C5A4AB4004F29C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7B77261C5A4AB4004F29C3 /* Build configuration list for PBXNativeTarget "ProjectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7B77271C5A4AB4004F29C3 /* Debug */,
+				6D7B77281C5A4AB4004F29C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7B77371C5A4DCD004F29C3 /* Build configuration list for PBXNativeTarget "ProjectEulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7B77381C5A4DCD004F29C3 /* Debug */,
+				6D7B77391C5A4DCD004F29C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D7B77171C5A4AB4004F29C3 /* Project object */;
+}
